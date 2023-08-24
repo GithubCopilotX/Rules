@@ -73,7 +73,6 @@
 - RULE-SET, Domestic IPs, Domestic
 
 - RULE-SET, LAN, DIRECT
-- GEOIP, CN, Domestic
 - MATCH, Others
 
 script:
@@ -198,7 +197,7 @@ rule-providers:
   Domestic IPs:
     type: http
     behavior: ipcidr
-    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic%20IPs.yaml'
+    url: 'https://raw.githubusercontent.com/GithubCopilotX/17mon/main/china_ip_list.yaml'
     path: ./Rules/Domestic_IPs
     interval: 86400
   LAN:
